@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes pulse {
+    0%, 100% {
+      transform: scale(1); /* Normal size */
+    }
+    50% {
+      transform: scale(1.1); /* Slightly larger */
+    }
+  }
+  
+  /* Animation for rotating circular overlay */
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Glowing text effect for project titles */
+/* Reduced glowing text effect for project titles */
+.text-shadow {
+    text-shadow: 0 0 5px rgba(255, 165, 0, 0.6), 0 0 10px rgba(255, 165, 0, 0.5), 0 0 15px rgba(255, 165, 0, 0.4);
+  }
+  
+  /* Reduced glowing icon effect */
+  .icon-glow {
+    text-shadow: 0 0 5px rgba(255, 165, 0, 0.6), 0 0 10px rgba(255, 165, 0, 0.5), 0 0 15px rgba(255, 165, 0, 0.4);
+  }
+  
+  /* Reduced glowing effect for the project title */
+  .title-glow {
+    text-shadow: 0 0 5px rgba(255, 165, 0, 0.6), 0 0 10px rgba(255, 165, 0, 0.5), 0 0 15px rgba(255, 165, 0, 0.4);
+  }
+  
+  /* Reduced glowing effect for the project cards */
+  .project-card:hover {
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.4), 0 0 15px rgba(255, 165, 0, 0.3);
+  }
+
+  
+  
